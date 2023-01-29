@@ -1,4 +1,4 @@
-FROM ghcr.io/streamingriver/super-config:latest as superconfig
+FROM ghcr.io/agios-ierodromos/super-config:latest as superconfig
 FROM ghcr.io/streamingriver/static-fileserver:latest as fileserver
 
 FROM alpine:latest
